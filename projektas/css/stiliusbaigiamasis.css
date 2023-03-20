@@ -1,0 +1,742 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+.site-header {
+    background-color:#333333;
+    position: fixed;
+    width: 100%;
+    display: block;
+    z-index: 2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.site-header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav li {
+    list-style: none;
+}
+
+.main-nav a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 10px 17px;
+}
+
+.main-nav a:hover,
+.main-nav a:active {
+    background-color: #3b3d3c;
+    border-radius: 10px;
+}
+
+.mobile-nav {
+    display: none;
+
+}
+
+.logo {
+    padding: 10px 0;
+}
+
+/* Hero*/
+
+
+.hero {
+    background-image: url("../images/virselis.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    padding: 245px auto; 
+    display: flex;
+    padding-top: 245px;
+    padding-bottom: 50px;
+
+}
+
+
+
+
+section>.container {
+    padding: 120px 0;
+}
+
+.hero h1 {
+    font-family: 'Lora', serif;
+    color: #ffffff;
+    font-size: 2.625rem;
+    line-height: 1.1428;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+    opacity: 0.9;
+    
+    
+}
+
+.hero a,
+.contact .btn {
+    letter-spacing: 0.03em;
+    color: #f9f6f6;
+    text-decoration: none;
+    background-color: #666666;
+    padding: 14px 41px 12px;
+    border-radius: 30px;
+    border-bottom: 4px solid #000;
+    display: inline-block;
+    opacity: 0.9;
+    text-shadow: 1px 1px #000000;
+    
+}
+
+.hero a:hover {
+    color: #aeaaaa;
+}
+
+/*Latest News*/
+.news {
+    background-color: #fff;
+    
+
+}
+
+.section-heading {
+    text-align: center;
+    color: #333333;
+    font-family: 'Lora', serif;
+    
+    
+}
+
+.section-heading h2 {
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+}
+
+.section-heading h2:after {
+    content: "";
+    display: block;
+    width: 90px;
+    border-top: 4px solid #ff7000;
+    margin: 22px auto;
+}
+
+.container a,
+.container h3 {
+    font-family: 'Lora', serif;
+    font-size: 1.125rem;
+    
+    
+}
+
+.container a,
+.container p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    
+}
+
+
+
+/* teksto dydis, šriftas */
+
+.section-heading p {
+    max-width: 610px;
+    margin: 0 auto;
+    line-height: 1, 625;
+    
+}
+
+.new {
+    text-align: center;
+    color: #666666;
+    max-width: 350px;
+    margin: 80px auto 0;
+    list-style-type: none;
+    
+    /* padding-right: 30px;
+    padding-left: 30px; */
+}
+
+.news .container .section-content {
+   gap: 0 20px;
+}
+
+
+
+/*Atsiliepimai*/
+
+.atsiliepimai {
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.atsiliepimai a,
+.atsiliepimai p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    max-width: 610px;
+    margin: 0 auto;
+    line-height: 1, 625;
+    color: #666666;
+    padding: 0 20px;
+}
+
+/*Partneriai*/
+
+
+
+
+
+
+.section-heading p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+}
+
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.contact .section-content {
+    display: block;
+}
+
+.partneriai p {
+    padding-bottom: 80px;
+}
+
+/*Contact*/
+.contact {
+    background-image: url("../images/kontaktai.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.contact .container {
+    padding-bottom: 0px;
+
+}
+
+
+.contact .section-heading p {
+    max-width: 780px;
+}
+
+.contact .section-content {
+    width: 80%;
+    max-width: 900px;
+    margin: 80px auto;
+    margin-bottom: 0;
+   
+}
+
+.contact .section-content .contact-form .input-row {
+    margin-bottom: 30px;
+    opacity: 0.75;
+}
+
+.contact .section-content .contact-form .input-row input {
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3b3d3c;
+    width: calc(50% - 11px);
+    
+
+}
+
+
+
+.contact .section-content .contact-form .input-row input::placeholder,
+.contact .section-content .contact-form textarea::placeholder {
+    color: #fff;
+    
+    
+}
+
+
+
+.contact .section-content .contact-form .input-row input:last-child {
+    margin-left: 16px;
+}
+
+.contact .section-content .contact-form textarea {
+    border: none;
+    width: 100%;
+    background-color: #3b3d3c;
+    color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    justify-content: space-between;
+    opacity: 0.75;
+    
+}
+
+
+.contact button {
+    letter-spacing: 0.03em;
+    color: #fff;
+    text-decoration: none;
+    background-color: #333333;
+    padding: 14px 41px 12px;
+    border-radius: 30px;
+    border-bottom: 4px solid #000;
+    display: inline-block;
+    margin: 32px auto 0;
+    width: 300px;
+    display: block;
+    opacity: 0.75;
+    /*margin-bottom: 20px;*/
+}
+
+/*Footer*/
+.footer {
+    background-color: #333333;
+    padding: 30px 0;
+}
+
+.footer ul {
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footer ul li a {
+    display: block;
+    padding: 5px;
+    color: #ff7000;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.footer ul li a:hover {
+    color: #dedede;
+}
+
+.footer p {
+    color: #9d9c9c;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.footer  {
+    padding-bottom: 10px;
+  
+}
+
+@media all and (max-width:900px) {
+    .main-nav {
+        display: none;
+    }
+
+
+    .site-header .container {
+        display: block;
+    }
+
+    .logo {
+        float: left;
+    }
+
+    .mobile-nav {
+        position: absolute;
+        width: 100%;
+        display: block;
+    }
+
+    .mobile-nav li {
+        list-style: none;
+    }
+
+    .mobile-nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 133px;
+        padding: 20px;
+        background-color: #fff;
+    }
+
+    .mobile-nav a {
+        color: #ff7000;
+        font-size: 1rem;
+        text-transform: capitalize;
+        text-decoration: none;
+        margin: 0 5px;
+        padding: 10px 17px;
+        display: block;
+
+    }
+
+    .mobile-nav a:hover,
+    .mobile-nav a:active {
+        background-color: #666666;
+        color: #fff;
+        border-radius: 10px;
+    }
+
+    .mobile-nav a.icon {
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 60px;
+        color: #fff;
+    }
+
+
+    .news .section-content {
+        flex-direction: column;
+    }
+
+    .partneriai .section-content {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .partneris {
+        padding: 20px;
+    }
+
+    .new {
+        max-width: 90%;
+        max-width: 400px;
+    }
+
+    .footer ul {
+        padding-left: 0;
+    }
+
+    @media all and (max-width:790px) {
+        .footer-nav .flex-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+}
+
+@media all and (max-width:414px) {
+    section>.container {
+        padding: 70px 0;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.3rem;
+        
+    }
+
+    .section-heading h2 {
+        font-size: 2.2rem;
+    }
+}
+
+
+/* APIE HEROS*/
+
+.heros  {
+    align-items: center;
+    text-align: center;
+    padding: 245px 50px;
+}
+
+
+
+.section-heading {
+    text-align: center;
+    color: #333333;
+    font-family: 'Lora', serif;
+    
+    
+}
+
+.heros h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #333333;
+    font-family: 'Lora', serif;
+}
+
+.heros h1:after {
+    content: "";
+    display: block;
+    width: 90px;
+    border-top: 4px solid #ff7000;
+    margin: 22px auto;
+}
+
+.acontainer {
+    text-align: start;
+    padding: 20px;
+}
+.acontainer h3 {
+    padding: 0 30px;
+}
+
+.acontainer p {
+    padding: 0 15px ;
+}
+
+
+
+/* NUOTRAUKŲ GALERIJA */
+.section-heading p {
+max-width: 610px;
+margin: 0 auto;
+line-height: 1, 625;
+
+}
+.akarusele {
+    padding-top: 60px;
+}
+
+
+
+
+.acontainer p {
+    color: #000000;
+}
+
+.acontainer  {
+    
+flex-direction: column;
+width: 100%;
+display: flex;
+align-items: center;
+  
+}
+.acontainer > img {
+    display: block;
+}
+
+.foto  {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: calc(33.3333 - 17px);
+   
+}
+
+.col {
+    padding: 60px 10px;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+@media all and (min-width:650px) {
+    .acontainer {
+        flex-direction: row;
+    }
+}
+
+
+/* RENGINIAI */
+.wrapper {
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem; 
+    overflow-x: hidden;
+    padding: 100px auto;
+    padding-top: 50px;
+   
+    
+    
+}
+
+
+.card img {
+    width: 100%;
+    
+    
+    
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.card {
+    
+    position: relative;
+    width: 370px;
+    padding-bottom: 60px;
+    background-color: #fff;
+    box-shadow: 0 21px 35px rgb(0 0 0 / .10);
+    border-radius: 6px;
+    overflow: hidden;
+    
+
+}
+
+.card .text {
+    padding: 15px;
+    
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+.card h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.card .more-btn {
+    width: 100px;
+    height: 100px;
+    background-color: #ff7000;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 20px;
+    transition: all ease 0.5s;
+    
+    
+    
+    
+    
+
+}
+.card .more-btn:hover {
+    background-color: #3b3d3c;
+    color: #ff7000;
+}
+
+.more-text{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ff7000;
+    padding: 30px;
+    overflow-y: auto;
+    transition: all ease 0.7s;
+    
+}
+
+.more-text::-webkit-scrollbar {
+    width: 7px;
+    background-color: #b3b3b3;
+}
+.more-text::-webkit-scrollbar-thumb {
+    background-color: #c76d06;
+}
+.more-text h2 {
+    color: #fff;
+}
+.more-text p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    
+}
+.more-text.active {
+    bottom: 0;
+}
+.card {
+    margin: 20px auto;
+}
+
+
+/*DUK*/
+
+.accordion {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.accordion-item {
+    background-color: #fff;
+    color: #111;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgb(0, 0, 0, 0.25);
+
+}
+
+.accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+
+}
+
+.accordion-item-header.active::after {
+    content:"\2212";
+}
