@@ -1,7 +1,7 @@
 <section class="hero">
     <div class="container">
         <h1> Nori Pasiekti Viršūnę? </h1>
-        <a href="#">Prisijunk!</a>
+        <a href="renginiai.php">Prisijunk!</a>
     </div>
 </section>
 <section class="news">

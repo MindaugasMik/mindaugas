@@ -204,8 +204,11 @@
             </div>
         </div>
     </div>
-    <div>
+    <div class="susidomejai">
         <p>Susidomėjote? Turite klausimų? susisiekite puslapio apačioje nurodytais kontaktais. Arba parašykite žinutę ir mes su jumis susisieksime.</p>
+    </div>
+    <div class="mygtukas">
+    <a href="baigiamasis.php #contacts">Rašyti žinutę</a>
     </div>
 
     
@@ -253,19 +256,65 @@
                     </div>
                 </div>
             </div>
+            <div class="accordion-item">
+                <div class="accordion-item-header">
+                    Kaip vyksta kelionė?
+                </div>
+                <div class="accordion-item-body">
+                    <div class="accordion-item-body-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ad provident, sint alias ipsam
+                        praesentium quod eius voluptas repellat aliquid libero non, voluptatibus nam dolorum minima ex
+                        quaerat nobis maxime necessitatibus impedit debitis. Deleniti commodi odio praesentium ad non
+                        fugit.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-item-header">
+                    Kaip vyksta kelionė?
+                </div>
+                <div class="accordion-item-body">
+                    <div class="accordion-item-body-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ad provident, sint alias ipsam
+                        praesentium quod eius voluptas repellat aliquid libero non, voluptatibus nam dolorum minima ex
+                        quaerat nobis maxime necessitatibus impedit debitis. Deleniti commodi odio praesentium ad non
+                        fugit.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-item-header">
+                    Kaip vyksta kelionė?
+                </div>
+                <div class="accordion-item-body">
+                    <div class="accordion-item-body-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ad provident, sint alias ipsam
+                        praesentium quod eius voluptas repellat aliquid libero non, voluptatibus nam dolorum minima ex
+                        quaerat nobis maxime necessitatibus impedit debitis. Deleniti commodi odio praesentium ad non
+                        fugit.
+                    </div>
+                </div>
+            </div>
         </div>
 
-      <!-- Bandžiau padaryti akordijoną ne js faile, o čia, viršuje pavyko padaryti mygtuką su jquery biblioteka -->
-<!-- <script>
+      
+<script>
 
     
 const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
 
 accordionItemHeaders.forEach(accordionItemHeader => {
 accordionItemHeader.addEventListener("click", event => {
-    accordionItemHeader.classList.toglle("active");
+    accordionItemHeader.classList.toggle("active");
+    const accordionItemBody = accordionItemHeader.nextElementSibling;
+    if(accordionItemHeader.classList.contains("active")) {
+        accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+    }
+
+    else {accordionItemBody.style.maxHeight = 0;
+    }
 });
-})};
-</script> -->
+});
+</script>
 
 </section>

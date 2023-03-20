@@ -28,6 +28,6 @@ const accordionItemHeaders = document.querySelectorAll(".accordion-item-header")
 
 accordionItemHeaders.forEach(accordionItemHeader => {
 accordionItemHeader.addEventListener("click", event => {
-    accordionItemHeader.classList.toglle("active");
+    accordionItemHeader.classList.toggle("active");
 });
 });

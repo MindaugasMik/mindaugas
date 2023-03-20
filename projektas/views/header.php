@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <script src="https://kit.fontawesome.com/adaa5eca50.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="../projektas/js/fancybox-custom.js" defer></script>
     <link rel="stylesheet" href="../projektas/css/normalize.css">
     <link rel="stylesheet" href="../projektas/css/stiliusbaigiamasis.css">
@@ -45,7 +44,7 @@
                     <li><a href="baigiamasis.php">Pagrindinis</a></li>
                     <li><a href="apie.php">Apie</a></li>
                     <li><a href="renginiai.php">Renginiai</a></li>
-                    <li><a href="#contacts">Kontaktai</a></li>
+                    <li><a href="baigiamasis.php #contacts">Kontaktai</a></li>
                     <li><a href="https://www.facebook.com/kalnaisirmiskais/" target="_blank"><i class="bi bi-facebook"></i></a></li>
                     <li><a href="https://www.instagram.com/kalnais_ir_miskais/?hl=en" target="_blank"><i class="bi bi-instagram"></i></a></li>
                 </ul>
